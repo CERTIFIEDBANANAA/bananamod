@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
         size.textContent = file.size;
 
         li.appendChild(icon);
-        li.appendChild(name);
         li.appendChild(size);
         li.appendChild(a)
+        a.appendChild(name);
 
         fileList.appendChild(li);
     });
