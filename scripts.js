@@ -1,10 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const files = [
-        { name: "index.html", size: "1 KB", type: "file" },
-        { name: "styles.css", size: "2 KB", type: "file" },
-        { name: "scripts.js", size: "3 KB", type: "file" },
-        { name: "images", size: "", type: "folder" },
-        { name: "docs", size: "", type: "folder" }
+        { name: "dlls", size: "", type: "folder" },
+        { name: "raw_csharp", size: "", type: "folder" }
     ];
 
     const fileList = document.getElementById("file-list");
