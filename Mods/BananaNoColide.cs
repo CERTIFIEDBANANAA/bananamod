@@ -8,6 +8,10 @@ namespace BananaMenu.mods
 {
     internal class BananaNoColide
     {
+        public static void OnLeftTriggerPressed()
+        {
+            BananaNoColideMod();
+        }
         public static void BananaNoColideMod()
         {
             if (ControllerInputPoller.TriggerFloat(XRNode.RightHand) == 1f)
