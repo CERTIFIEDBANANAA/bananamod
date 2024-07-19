@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const files = [
         { name: "Banana Menu 1.0.0.csproj", size: "12.9 KB", type: "file", link:"/raw/Banana Menu 1.0.0.csproj"},
-        { name: "PluginInfo.cs", size: "329 bytes", type: "file", link:"/raw/PluginInfo.cs"},
-        { name: "Directory.Build.props", size: "610 bytes", type: "file", link:"/raw/Directory.Build.props"},
-        { name: "Directory.Build.targets", size: "298 bytes", type: "file", link:"/raw/Directory.Build.targets"},
+        { name: "PluginInfo.cs", size: "329 Bytes", type: "file", link:"/raw/PluginInfo.cs"},
+        { name: "Directory.Build.props", size: "610 Bytes", type: "file", link:"/raw/Directory.Build.props"},
+        { name: "Directory.Build.targets", size: "298 Bytes", type: "file", link:"/raw/Directory.Build.targets"},
         { name: "StupidTemplate.sln", size: "1.1 kb", type: "file", link:"/raw/StupidTemplate.sln"},
     ];
 
