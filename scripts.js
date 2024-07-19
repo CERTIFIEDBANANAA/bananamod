@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const files = [
-        { name: "dlls", size: "", type: "folder" },
-        { name: "raw_csharp", size: "", type: "folder" }
+        { name: "dlls", size: "", type: "folder", link:"/dlls"},
+        { name: "raw_csharp", size: "", type: "folder", link: "/raw"}
     ];
 
     const fileList = document.getElementById("file-list");
@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const li = document.createElement("li");
 
         const icon = document.createElement("span");
+        const a = document.createElement("a");
+        a.href=file.link
+        a.innerHTML="Click"
         icon.classList.add("icon");
         icon.innerHTML = file.type === "folder" ? "📁" : "📄";
         
@@ -24,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(icon);
         li.appendChild(name);
         li.appendChild(size);
+        li.appendChild(a)
 
         fileList.appendChild(li);
     });
