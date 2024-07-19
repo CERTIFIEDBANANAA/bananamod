@@ -1,16 +1,23 @@
-# ii's Stupid Template
-ii's Stupid Template is a mod menu template for Gorilla Tag with custom categories and the maximum amount of customization possible. This template is meant for more advanced users, so if you're a new menu creator, this could be difficult for you.
+Gorillatag Mods Showcase
 
-## Do I need permission to use this?
-No, this template is free and public for anyone to use. You are welcome to utilize it for your projects, modify it to suit your needs, and share it with others. We believe in a collaborative and open community where resources are accessible to all. Just don't skid, cause skidding is bad.
+Welcome to the Gorillatag Mods Showcase! Here you will find a collection of mods created by our community members.
 
----
+Mod 1: Super Speed
 
-# Installation
+This mod allows your gorilla to run at lightning-fast speeds, making it harder for the hunters to catch you.
 
-- Download the release from [here](https://github.com/iiDk-the-actual/iis.Stupid.Template/releases/latest)
-- Change your `<GamePath>` (Gorilla Tag directory) in `Directory.Build.props` if required
-- Change the menu name in `PluginInfo.cs`
-- Edit the menu visuals in `Menu/Settings.cs`
-- Add buttons in `Menu/Buttons.cs`
-- Build with `Ctrl` + `Shift` + `B`, it will get put in your plugins folder automatically
+To install the mod, simply download the ZIP file from here and extract it to your Gorillatag game folder.
+
+Mod 2: Invisibility
+
+With this mod, you can make your gorilla invisible, making it easier to hide from the hunters and sneak up on them.
+
+To install the mod, download the ZIP file from here and extract it to your Gorillatag game folder.
+
+Mod 3: Jetpack
+
+This mod gives your gorilla a jetpack that allows you to fly around the map and escape from the hunters.
+
+To install the mod, download the ZIP file from here and extract it to your Gorillatag game folder.
+
+We hope you enjoy these mods and have fun playing Gorillatag! Don't forget to share your own mods with the community.
