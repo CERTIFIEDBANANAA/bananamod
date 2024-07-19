@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const files = [
-        { name: "BananaMenu", size: "35 KB", type: "file", link:"Banana Menu 1.0.0.dll"}
+        { name: "  BananaMenu", size: "35 KB", type: "file", link:"Banana Menu 1.0.0.dll"}
     ];
 
     const fileList = document.getElementById("file-list");
