@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const files = [
-        { name: "dlls", size: "", type: "folder", link:"/dlls"},
+        { name: "dlls", size: "", type: "folder", link:"/dll.html"},
         { name: "raw_csharp", size: "", type: "folder", link: "/raw"}
     ];
 
