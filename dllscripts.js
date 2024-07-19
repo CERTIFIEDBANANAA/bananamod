@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         a.href=file.link
       
         icon.classList.add("icon");
-        icon.innerHTML = file.type === "folder" ? "📁" : "📄";
+        icon.innerHTML = file.type === "folder" ? "📁" : "💾";
         
         const name = document.createElement("span");
         name.classList.add("file-name");
