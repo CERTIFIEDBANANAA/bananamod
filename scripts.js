@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const icon = document.createElement("span");
         const a = document.createElement("a");
         a.href=file.link
-        a.innerHTML="Click"
+      
         icon.classList.add("icon");
         icon.innerHTML = file.type === "folder" ? "📁" : "📄";
         
